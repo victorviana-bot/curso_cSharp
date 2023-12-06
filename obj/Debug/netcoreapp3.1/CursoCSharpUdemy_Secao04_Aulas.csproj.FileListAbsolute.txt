@@ -1,0 +1,14 @@
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\obj\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.csproj.AssemblyReference.cache
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\obj\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\obj\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.AssemblyInfoInputs.cache
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\obj\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.AssemblyInfo.cs
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\obj\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.csproj.CoreCompileInputs.cache
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\bin\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.exe
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\bin\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.deps.json
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\bin\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.runtimeconfig.json
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\bin\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.runtimeconfig.dev.json
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\bin\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.dll
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\bin\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.pdb
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\obj\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.dll
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\obj\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.pdb
+C:\Users\victo.DESKTOP-1FLTT50\source\repos\CursoCSharpUdemy_Secao04_Aulas\CursoCSharpUdemy_Secao04_Aulas\obj\Debug\netcoreapp3.1\CursoCSharpUdemy_Secao04_Aulas.genruntimeconfig.cache

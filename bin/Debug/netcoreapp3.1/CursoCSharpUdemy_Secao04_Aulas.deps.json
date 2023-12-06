@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CursoCSharpUdemy_Secao04_Aulas/1.0.0": {
+        "runtime": {
+          "CursoCSharpUdemy_Secao04_Aulas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CursoCSharpUdemy_Secao04_Aulas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
