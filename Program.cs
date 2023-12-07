@@ -3,6 +3,11 @@ using System.Globalization;
 using System.Collections.Generic;
 using CursoCSharpUdemy_Secao04_Aulas.Entities;
 using CursoCSharpUdemy_Secao04_Aulas.Entities.Enums;
+using CursoCSharpUdemy_Secao04_Aulas.Entities_Aula129;
+using CursoCSharpUdemy_Secao04_Aulas.Entities_Aula129.Enums_129;
+using CursoCSharpUdemy_Secao04_Aulas.Entities_Aula131;
+using CursoCSharpUdemy_Secao04_Aulas.Entities_Aula132;
+using CursoCSharpUdemy_Secao04_Aulas.Entities_Aula132.Enums_132;
 
 namespace CursoCSharpUdemy_Secao04_Aulas
 {
@@ -658,7 +663,7 @@ namespace CursoCSharpUdemy_Secao04_Aulas
                     }
                 }
             ----------*/
-            /*----------AULA 124*/
+            /*----------AULA 124
 
             Order order = new Order
             {
@@ -674,6 +679,121 @@ namespace CursoCSharpUdemy_Secao04_Aulas
 
             Console.WriteLine(os);
             Console.WriteLine(txt);
+
+            ----------*/
+
+            /*----------AULA 129
+
+            Console.Write("Enter department's name: ");
+            string deptName = Console.ReadLine();
+            Console.WriteLine("Enter worker data:");
+            Console.Write("Name: ");
+            string name = Console.ReadLine();
+            Console.Write("Level (Junior/MidLevel/Senior): ");
+            WorkerLevel_129 level = Enum.Parse<WorkerLevel_129>(Console.ReadLine());
+            Console.Write("Base salary: ");
+            double baseSalary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Department_129 dept = new Department_129(deptName);
+            Worker_129  worker = new Worker_129(name, level, baseSalary, dept);
+
+            Console.Write("How many contracts to this worker? ");
+            int n = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= n; i++)
+            {
+                Console.WriteLine($"Enter #{i} contract data:");
+                Console.Write("Date (DD/MM/YYYY): ");
+                DateTime date = DateTime.Parse(Console.ReadLine());
+                Console.Write("Value per hour: ");
+                double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                Console.Write("Duration (hours): ");
+                int hours = int.Parse(Console.ReadLine());
+                HourContract_129 contract = new HourContract_129(date, valuePerHour, hours);
+                worker.AddContract(contract);
+            }
+
+            Console.WriteLine();
+            Console.Write("Enter month and year to calculate income (MM/YYYY): ");
+            string monthAndYear = Console.ReadLine();
+            int mont = int.Parse(monthAndYear.Substring(0, 2));
+            int year = int.Parse(monthAndYear.Substring(3));
+            Console.WriteLine("Name: " + worker.Name);
+            Console.WriteLine("Department: " + worker.Department.Name);
+            Console.WriteLine("Income for " + monthAndYear + ": " + worker.Income(year, mont).ToString("F2", CultureInfo.InvariantCulture));
+            ----------*/
+
+            /*----------AULA 131
+
+            Comment_131 c1 = new Comment_131("Have a nice trip!");
+            Comment_131 c2 = new Comment_131("Wow that's awesome!");
+            Post_131 p1 = new Post_131(
+                DateTime.Parse("21/06/2018 13:05:44"),
+                "Traveling to New Zealand",
+                "I'm goin to visit this wonderful country!",
+                12);
+            p1.AddComment(c1);
+            p1.AddComment(c2);
+
+            Comment_131 c3 = new Comment_131("Good night");
+            Comment_131 c4 = new Comment_131("May the Force be with you");
+            Post_131 p2 = new Post_131(
+                DateTime.Parse("28/07/2018 23:14:19"),
+                "Good night guys",
+                "See you tomorrow",
+                5);
+            p2.AddComment(c1);
+            p2.AddComment(c2);
+
+            Console.WriteLine(p1);
+            Console.WriteLine(p2);
+
+            ----------*/
+
+            /*----------Exercicio Aula 132*/
+
+            Console.WriteLine("Enter client data:");
+            Console.Write("Name: ");
+            string name = Console.ReadLine();
+            Console.Write("Email: ");
+            string email = Console.ReadLine();
+            Console.Write("Birth date (DD/MM/YYYY): ");
+            DateTime birthDate = DateTime.Parse(Console.ReadLine());
+
+
+            Client_132 client = new Client_132(name, email, birthDate);
+
+            Console.WriteLine("Enter order data:");
+
+            Console.Write("Status: ");
+            OrderStatus_132 status = Enum.Parse<OrderStatus_132>(Console.ReadLine());
+
+
+            Console.Write("How many items to this order? ");
+            int n = int.Parse(Console.ReadLine());
+
+
+            Order_132 order;
+            order = new Order_132();
+
+            
+            for (int i = 1; i <= n; i++)
+            {
+                Console.WriteLine($"Enter #{i} item data:");
+                Console.Write("Product name: ");
+                string productName = Console.ReadLine();
+                Console.Write("Product price: ");
+                double productPrice = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                Console.Write("Quantity: ");
+                int quantity = int.Parse(Console.ReadLine());
+                OrderItem_132 orderItem = new OrderItem_132(quantity, productPrice);
+                Product_132 productItem = new Product_132(productName, productPrice);
+                order = new Order_132(DateTime.Now, status, productItem, client);
+                order.AddOrderItem(orderItem);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine(order);
 
 
         }
